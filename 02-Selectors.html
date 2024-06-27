@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS SELECTORS</title>
+    <style>
+      p {
+        color: rgb(0, 0, 0);
+        border: 2px dashed red;
+      }
+
+      #blueElement {
+        color: blue;
+      }
+
+      h3 {
+        color: chocolate;
+      }
+
+      .pinkElement {
+        color: deeppink;
+      }
+      footer,
+      span {
+        background-color: cadetblue;
+        color: rgb(0, 0, 0);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>CSS SELECTORS</h3>
+    <p>This is a simple paragraph to demonstarte the CSS Selectors.</p>
+    <p id="blueElement">
+      This is the para which is colored using the id element and calling them by
+      using # and it can be used only for one lement, id is unique.
+    </p>
+    <p id="thirdPara" class="pinkElement">
+      This is the para which is colored using the class element which is much
+      prefered then the ID thing as you can use class for multiple elements.
+    </p>
+    <span>This is a span!</span>
+    <footer>This is a footer!</footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute, Relative, Fixed and Sticky in CSS.</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: antiquewhite;
+            height: 1369px;
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box1{
+            position: absolute;
+        }
+        #box2{
+            position: relative;
+            left: 3px;
+        }
+        #box3{
+            position: fixed;
+            right: 4px;
+        }
+        #box4{
+            position: sticky;
+            top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3 <br>CHAT WITH US</div>
+    <div class="box" id="box4">4 <br>STICKY BOX</div>
+</div>
+</body>
+</html>

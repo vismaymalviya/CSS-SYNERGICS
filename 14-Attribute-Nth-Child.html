@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATTRIBUTE AND NTH CHILD PSEUDO SELECTORS</title>
+    <style>
+        .container {
+            margin: auto;
+            display: block;
+            width: 333px;
+        }
+        input {
+            display: block;
+        }
+        input[type='text']{
+            padding: 2px;
+            border: 2px solid cyan;
+        }
+        a[target]{
+            font-size: 23px;
+            color: rgb(89, 112, 120);
+            text-align: center;
+        }
+        a[target='_self']{
+            font-size: 33px;
+            color: aquamarine;
+        }
+        li:nth-child(3){
+            color: blue;
+        }
+        li:nth-child(4){
+            color: rgb(255, 162, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="https://google.com" target="_blank">GO TO GOOGLE DOT COM</a></h1>
+        <h1><a href="https://facebook.com" target="_self">GO TO FACEBOOK DOT COM</a></h1>
+        <form action="" class="form-control"></form>
+        <input type="text" placeholder="Enter Your Name">
+        <input type="password" placeholder="Enter Your Password">
+        <input type="submit" value="submit">
+        <ul>
+            <li class="item" id="item1">ITEM-1</li>
+            <li class="item" id="item2">ITEM-2</li>
+            <li class="item" id="item3">ITEM-3</li>
+            <li class="item" id="item4">ITEM-4</li>
+            <li class="item" id="item5">ITEM-5</li>
+        </ul>
+    </div>
+</body>
+</html>

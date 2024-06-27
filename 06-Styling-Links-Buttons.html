@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling Links and Building Buttons</title>
+    <style>
+      .container {
+        border: 3px solid rebeccapurple;
+        background-color: rgb(35, 190, 251);
+        padding: 31px;
+        margin: 31px auto;
+        width: 666px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .btn {
+        background-color: rgb(101, 243, 248);
+        padding: 6px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 3px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        color: darkblue;
+        background-color: bisque;
+      }
+      a:visited {
+        color: yellowgreen;
+      }
+      .btn:hover {
+        color: darkblue;
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="cont1">
+      <h3>This is my Heading 4</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, esse
+        tempora.
+      </p>
+      <a href="https://google.com" class="btn">Read More</a>
+      <button class="btn">Contact Us</button>
+    </div>
+  </body>
+</html>
